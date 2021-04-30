@@ -1,14 +1,13 @@
 {
-    "name": "by-blog",
-    "title": "BY Blog",
-    "author": "BY <qiubaiyingios@163.com>",
-    "version": "1.7.0",
-    "homepage": "http://qiubaiying.github.io",
+    "name": "johnsunqiang-blog",
+    "title": "JohnSunQiang Blog",
+    "author": "JohnSunQiang",
+    "version": "1.0.0",
+    "homepage": "https://johnsunqiang618.github.io/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/qiubaiying/qiubaiying.github.io"
+        "url": "https://github.com/JohnSunQiang618/johnsunqiang618.github.io"
     },
-    "bugs": "https://github.com/qiubaiying/qiubaiying.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
@@ -21,8 +20,8 @@
         "py3view": "cd _site; python3 -m http.server 8020",
         "watch"  : "grunt watch & npm run preview & jekyll serve -w",
         "py3wa"  : "grunt watch & npm run py3view & jekyll serve -w",
-        "boil"   : "git push boilerplate boilerplate:master",
-        "push"   : "git push origin master --tag",
-        "cafe"   : "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
+        "boil"   : "git push boilerplate boilerplate:main",
+        "push"   : "git push origin main --tag",
+        "cafe"   : "git co gitcafe-pages; git merge main; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co main;"
     }
 }
